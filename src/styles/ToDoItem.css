@@ -1,0 +1,16 @@
+.todolist-item {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  min-height: 85px;
+  padding: 20px;
+  border: 1px solid #FFD418;
+  border-left: 5px solid #C5E947;
+  background-color: #fff;
+  box-shadow: 5px 5px 25px 1px rgba(0, 0, 0, .45);
+}
+
+.todolist-item__title {
+  color: #C5E946;
+  margin-bottom: 10px;
+}

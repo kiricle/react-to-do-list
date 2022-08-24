@@ -1,0 +1,31 @@
+.myBtn {
+  position: relative;
+  padding: 5px 15px;
+  color: #C5E946;
+  font-size: 24px;
+  font-weight: bolder;
+  background-color: transparent;
+  border: 2px solid #C5E946;
+  transition: transform .3s ease;
+  cursor: pointer;  
+  z-index: 10;
+  border-radius: 10px;
+}
+
+.myBtn:hover::before {
+  width: 100%;
+}
+
+.myBtn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  inset: 0 0 0 0;
+  background: brown; /*#FFD20E*/
+  transition: .5s;
+  z-index: -1;
+  border-radius: 10px;
+}
